@@ -1,4 +1,4 @@
-###Contact QR Code Generator
+### Contact QR Code Generator
 This project generates Quick Response codes (QR Codes) for the follong:
 - Whatsapp
 - Phone number
