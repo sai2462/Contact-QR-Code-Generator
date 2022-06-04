@@ -7,13 +7,13 @@
 <body>
 	<style>
     body {
-      background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700360717.jpg");
+      background-image: url({{ url_for('static', filename='pics/background.jpg') }});
     }
     </style>
 	<center><img src="{{ user_image }}" height="200px" width="200px"></center>
 	<center>
 		<a href="{{ user_image }}" download><button class="btn">Download</button></a>
-		<a href="/UserPage"><button>Try another</button></a>
+		<a href="/"><button>Try another</button></a>
 	</center>
 
 </body>

@@ -12,10 +12,6 @@ QR_Generator.config['UPLOAD_FOLDER'] = picFolder
 def index():
 	return render_template('UserPage.html')
 
-@QR_Generator.route('/UserPage')
-def  UserPage():
-	return render_template("UserPage.html")
-
 @QR_Generator.route('/', methods = ['POST'])
 def getvalue():
 	fileName = ""
